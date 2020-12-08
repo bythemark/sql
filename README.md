@@ -1,13 +1,13 @@
 # sql
 SQL-kurssin ohjelmointiharjoitukset.
 
-Tarvitset harjoituksissa terminaalina. Kokeile ajaa hello.py komentoriviltä ennen aloittamista:
+Tarvitset harjoituksissa komentoriviä. Kokeile ajaa hello.py komentoriviltä ennen aloittamista:
 
 - New -> Terminal
 
-jovyan@jupyter-bythemark-2dsql-2di7ifhjdt:~$ python hello.py
-Hello World
-jovyan@jupyter-bythemark-2dsql-2di7ifhjdt:~$
+  jovyan@jupyter-bythemark-2dsql-2di7ifhjdt:~$ python hello.py
+  Hello World
+  jovyan@jupyter-bythemark-2dsql-2di7ifhjdt:~$
 
 Muutama kätevä komento:
 
