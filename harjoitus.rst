@@ -123,16 +123,17 @@ valita väkimäärän perusteella on lisätä hakukomentoon
 ``ORDER BY populaatio DESC`` eli järjestä laskevasti väkimäärän
 mukaan. Tällöin suurin kaupunki on listassa ensimmäinen.
 
-.. note:: Merkistöistä
+Merkistöistä
+............
 
-  Ennen seuraavan tehtävän aloittamista kannattaa tutkia tehtäväpaketin mukana tulleita tiedostoja.
-  Mitä `merkistöä <https://fi.wikipedia.org/wiki/Merkist%C3%B6>`_ esimerkiksi `tekstitiedosto <https://fi.wikipedia.org/wiki/Tekstitiedosto>`_ kaupungit.txt käyttää?
-  Ongelmien välttämiseksi tiedoston avaamisen yhteyteen on syytä lisätä tieto käytetystä merkistöstä.
-  Python 3:ssa se onnistuu lisäämällä määre **encoding** esimerkiksi seuraavasti
+Ennen seuraavan tehtävän aloittamista kannattaa tutkia tehtäväpaketin mukana tulleita tiedostoja.
+Mitä `merkistöä <https://fi.wikipedia.org/wiki/Merkist%C3%B6>`_ esimerkiksi `tekstitiedosto <https://fi.wikipedia.org/wiki/Tekstitiedosto>`_ kaupungit.txt käyttää?
+Ongelmien välttämiseksi tiedoston avaamisen yhteyteen on syytä lisätä tieto käytetystä merkistöstä.
+Python 3:ssa se onnistuu lisäämällä määre **encoding** esimerkiksi seuraavasti
 
-  .. code-block:: python
+.. code-block:: python
 
-      f = open(filename, 'r', encoding='utf-8')
+  f = open(filename, 'r', encoding='utf-8')
 
 Tehtävä 2: Tietojen päivittäminen
 ---------------------------------
@@ -160,10 +161,15 @@ hyväksy numpyä.
 **Huom.** Älä kopioi kaavoja suoraan, sillä mukaan tulee ylimääräisiä `tulostumattomia merkkejä <https://fi.wikipedia.org/wiki/Tulostumaton_merkki>`_,
 jolloin python-tulkki valittaa `syntax-errorista <https://docs.python.org/3.6/library/exceptions.html#SyntaxError>`_.
 
-Kulma isoympyrällä:
+:math:`\frac{ \sum_{t=0}^{N}f(t,k) }{N}`
 
 .. math::
 
+   \frac{ \sum_{t=0}^{N}f(t,k) }{N}
+
+Kulma isoympyrällä:
+
+.. math::
   \alpha = \arccos(\sin(lat1) * \sin(lat2) + \cos(lat1) * cos(lat2) * cos(lon2-lon1))
 
 Etäisyys isoympyrällä:
