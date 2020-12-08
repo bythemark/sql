@@ -16,6 +16,7 @@ Muutama kätevä komento:
 - pwd - kertoo missä hakemistossa olet
 - cd <hakemisto> - vaihtaa alihakemistoon <hakemisto>
 - cd .. - palaa yhden hakemistotason ylemmäksi
+- <ctrl>-L - tyhjentää ruudun
 
 Voit ajaa ensimmäisen tehtävä testit komennolla 'python test_kaupunkihaku.py'
 
