@@ -35,39 +35,40 @@ Ennen tehtävien aloittamista kannattaa tutkia tietokannan tietoja. Missä muodo
 Tietokannan rakenne
 ...................
 
-  +----------------------------------------------------+
-  |  .. code-block:: sql                               |
-  |                                                    |
-  |    TABLE kaupungit                                 |
-  |                                                    |
-  |        id           integer primary key            |
-  |                                                    |
-  |        nimi         text                           |
-  |                                                    |
-  |        alue         text                           |
-  |                                                    |
-  |        valtio       text                           |
-  |                                                    |
-  |        populaatio   integer                        |
-  |                                                    |
-  |        lat          real                           |
-  |                                                    |
-  |        lon	        real                           |
-  |                                                    |
-  +----------------------------------------------------+
++----------------------------------------------------+
+|  .. code-block:: sql                               |
+|                                                    |
+|    TABLE kaupungit                                 |
+|                                                    |
+|        id           integer primary key            |
+|                                                    |
+|        nimi         text                           |
+|                                                    |
+|        alue         text                           |
+|                                                    |
+|        valtio       text                           |
+|                                                    |
+|        populaatio   integer                        |
+|                                                    |
+|        lat          real                           |
+|                                                    |
+|        lon	        real                         |
+|                                                    |
++----------------------------------------------------+
 
 
-Oppaat
+Ohjeet
 ------
 
-.. hint:: Itsenäinen tiedon haku
+Itsenäinen tiedon haku
+......................
 
-  SQL on paljon laajempi kyselykieli kuin mitä tällä kurssilla on mahdollista syvällisemmin käydä läpi.
-  Harjoitukissa on kuitenkin tarkoitus saada yleiskuva kielen laajuudesta ja opetella ongelmanratkaisua.
-  Siksi tällä kierroksella on tehtäviä, joihin tulee etsiä
-  oikeat komennot itse ja joita ei pikaoppaastamme löydy.
-  Käytä esim. jo aikaisemmin mainittua referenssimanuaalia,
-  joka löytyy osoitteesta `w3schools.com <http://www.w3schools.com/sql/default.asp>`__.
+SQL on paljon laajempi kyselykieli kuin mitä tällä kurssilla on mahdollista syvällisemmin käydä läpi.
+Harjoitukissa on kuitenkin tarkoitus saada yleiskuva kielen laajuudesta ja opetella ongelmanratkaisua.
+Siksi tällä kierroksella on tehtäviä, joihin tulee etsiä
+oikeat komennot itse ja joita ei pikaoppaastamme löydy.
+Käytä esim. jo aikaisemmin mainittua referenssimanuaalia,
+joka löytyy osoitteesta `w3schools.com <http://www.w3schools.com/sql/default.asp>`__.
 
 Vihjeitä
 ........
