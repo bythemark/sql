@@ -19,20 +19,21 @@ Suuntaa antava työläysarvio:
 Ohjelmointitehtävät:
     Voit asentaa `SQL Liten <http://sqlitebrowser.org/>`__ sen omilta sivuilta (tai `täältä <https://sourceforge.net/projects/sqlitedbrowser/>`__).
 
-.. admonition:: And, by the way...
-
-   You can make up your own admonition too.
+Yleistä
+-------
    
-.. hint:: Demografia
+Demografia
+..........
 
-  Kaikissa tehtävissä käytetään alla olevaa tietokantaa, johon on ladattu suuri määrä maailman kaupunkeja ja niiden asukasmääriä ja koordinaatteja. Tietokannassa on vain yksi taulu, jonka tietueet kuvaavat maailman kaupunkeja.
-
-.. note:: Tietokannan rakenne
-
-  Ennen tehtävien aloittamista kannattaa tutkia tietokannan tietoja. Missä muodossa kaupunkien ja valtioiden nimet on annettu?
+Kaikissa tehtävissä käytetään alla olevaa tietokantaa, johon on ladattu suuri määrä maailman kaupunkeja ja niiden asukasmääriä ja koordinaatteja. Tietokannassa on vain yksi taulu, jonka tietueet kuvaavat maailman kaupunkeja.
 
 Tietokannan rakenne
--------------------
+...................
+
+Ennen tehtävien aloittamista kannattaa tutkia tietokannan tietoja. Missä muodossa kaupunkien ja valtioiden nimet on annettu?
+
+Tietokannan rakenne
+...................
 
   +----------------------------------------------------+
   |  .. code-block:: sql                               |
@@ -68,49 +69,46 @@ Oppaat
   Käytä esim. jo aikaisemmin mainittua referenssimanuaalia,
   joka löytyy osoitteesta `w3schools.com <http://www.w3schools.com/sql/default.asp>`__.
 
+Vihjeitä
+........
 
-Yleistä
--------
-
-.. danger:: This is a note admonition.
-
-  Jos seuraavissa tehtävissä konsoliin tulostuu virheilmoitus,
+Jos seuraavissa tehtävissä konsoliin tulostuu virheilmoitus,
 
   .. figure:: kuvat/SQL_python_virhe.png
 
-  jossa kerrotaan, että tietokantaa tai jotain taulua ei löydy,
-  kannattaa antaa main()-funktion *tietokanta*-muuttujaan koko tiedostopolku, jossa tietokanta sijaitsee.
+jossa kerrotaan, että tietokantaa tai jotain taulua ei löydy,
+kannattaa antaa main()-funktion *tietokanta*-muuttujaan koko tiedostopolku, jossa tietokanta sijaitsee.
 
   .. figure:: kuvat/SQL_python_korjaus.png
 
 
-  Toinen vaihtoehto on siirtää tietokanta samaan kansioon kuin ajettava python-tiedosto.
+Toinen vaihtoehto on siirtää tietokanta samaan kansioon kuin ajettava python-tiedosto.
 
-  Tietokanta luodaan automaattisesti, jos sitä ei löydy. Tietokanta on tällöin tyhjä, joten vaikka näyttäisi siltä, että
-  tietokanta on oikeassa paikassa, se ei toimi.
+Tietokanta luodaan automaattisesti, jos sitä ei löydy. Tietokanta on tällöin tyhjä, joten vaikka näyttäisi siltä, että
+tietokanta on oikeassa paikassa, se ei toimi.
 
   .. figure:: kuvat/tyhja_tietokanta.png
 
-.. note:: SQL-komennon palauttamat tietueet talteen
+SQL-komennon palauttamat tietueet talteen
+.........................................
 
-  Suoritettuasi esimerkiksi komennon
+Suoritettuasi esimerkiksi komennon
 
-  .. code-block:: python
+.. code-block:: python
 
-    c.execute("""SELECT * FROM kaupungit;""")
+  c.execute("""SELECT * FROM kaupungit;""")
 
-  Saat komennon palauttaman ensimmäisen tietueen talteen komennolla
+Saat komennon palauttaman ensimmäisen tietueen talteen komennolla
 
-  .. code-block:: python
+.. code-block:: python
 
-    tietue = c.fetchone()
+  tietue = c.fetchone()
 
-  Saat kaikki komennon palauttamat tietueet talteen komennolla
+Saat kaikki komennon palauttamat tietueet talteen komennolla
 
-  .. code-block:: python
+.. code-block:: python
 
-    tietueet = c.fetchall()  #palauttaa kaikki c.excecute()-komennon palauttamat tietueet listana
-
+  tietueet = c.fetchall()  #palauttaa kaikki c.excecute()-komennon palauttamat tietueet listana
 
 
 Tehtävä 1: Kaupunkihaku
