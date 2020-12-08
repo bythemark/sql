@@ -5,9 +5,9 @@ Tarvitset harjoituksissa komentoriviä. Kokeile ajaa hello.py komentoriviltä en
 
 - New -> Terminal
 
-  jovyan@jupyter-bythemark-2dsql-2di7ifhjdt:~$ python hello.py
-  Hello World
-  jovyan@jupyter-bythemark-2dsql-2di7ifhjdt:~$
+  'jovyan@jupyter-bythemark-2dsql-2di7ifhjdt:~$ python hello.py'
+  'Hello World'
+  'jovyan@jupyter-bythemark-2dsql-2di7ifhjdt:~$'
 
 Muutama kätevä komento:
 
@@ -16,7 +16,9 @@ Muutama kätevä komento:
 - cd <hakemisto> - vaihtaa alihakemistoon <hakemisto>
 - cd .. - palaa yhden hakemistotason ylemmäksi
 
-Voit ajaa ensimmäisen tehtävä testit komennolla 
+Voit ajaa ensimmäisen tehtävä testit komennolla 'python test_kaupunkihaku.py'
+
+Ohjeet harjoitusten tekemiseen löydät tiedostosta 'harjoitus.rst'
 
 
 
