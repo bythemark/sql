@@ -161,11 +161,11 @@ hyväksy numpyä.
 **Huom.** Älä kopioi kaavoja suoraan, sillä mukaan tulee ylimääräisiä `tulostumattomia merkkejä <https://fi.wikipedia.org/wiki/Tulostumaton_merkki>`_,
 jolloin python-tulkki valittaa `syntax-errorista <https://docs.python.org/3.6/library/exceptions.html#SyntaxError>`_.
 
-:math:`\frac{ \sum_{t=0}^{N}f(t,k) }{N}`
+:math:`\\frac{ \sum_{t=0}^{N}f(t,k) }{N}`
 
 .. math::
 
-   \frac{ \sum_{t=0}^{N}f(t,k) }{N}
+   \\frac{ \sum_{t=0}^{N}f(t,k) }{N}
 
 Kulma isoympyrällä:
 
