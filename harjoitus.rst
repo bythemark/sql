@@ -32,9 +32,6 @@ Tietokannan rakenne
 
 Ennen tehtävien aloittamista kannattaa tutkia tietokannan tietoja. Missä muodossa kaupunkien ja valtioiden nimet on annettu?
 
-Tietokannan rakenne
-...................
-
 +----------------------------------------------------+
 |  .. code-block:: sql                               |
 |                                                    |
