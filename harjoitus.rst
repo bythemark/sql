@@ -1,33 +1,29 @@
 SQL
 ===
 
-.. styled-topic::
+Pääkysymys:
+    Miten hallitaan suuria tietomääriä monen käyttäjän tietojärjestelmissä?
 
-  Pääkysymys:
-      Miten hallitaan suuria tietomääriä monen käyttäjän tietojärjestelmissä?
+Mitä käsitellään?
+    Tällä tehtäväkierroksella tutustumme tietokantoihin sekä SQL-nimiseen tietokantojen hallintakieleen.
 
-  Mitä käsitellään?
-      Tällä tehtäväkierroksella tutustumme tietokantoihin sekä SQL-nimiseen tietokantojen hallintakieleen.
+Mitä sinun oletetaan tekevän?
+    Lue tutoriaali ja tee tehtävät.
 
-  Mitä sinun oletetaan tekevän?
-      Lue tutoriaali ja tee tehtävät.
+Suuntaa antava vaativuusarvio:
+    Helpohko.
 
-  Suuntaa antava vaativuusarvio:
-      Helpohko.
-
-  Suuntaa antava työläysarvio:
-      2-3 tuntia.
+Suuntaa antava työläysarvio:
+    2-3 tuntia.
 
   Ohjelmointitehtävät:
       Voit asentaa `SQL Liten <http://sqlitebrowser.org/>`__ sen omilta sivuilta (tai `täältä <https://sourceforge.net/projects/sqlitedbrowser/>`__).
 
-.. admonition:: Demografia
-  :class: meta
+.. hint:: Demografia
 
   Kaikissa tehtävissä käytetään alla olevaa tietokantaa, johon on ladattu suuri määrä maailman kaupunkeja ja niiden asukasmääriä ja koordinaatteja. Tietokannassa on vain yksi taulu, jonka tietueet kuvaavat maailman kaupunkeja.
 
-.. admonition:: Tietokannan rakenne
-  :class: note
+.. note:: Tietokannan rakenne
 
   Ennen tehtävien aloittamista kannattaa tutkia tietokannan tietoja. Missä muodossa kaupunkien ja valtioiden nimet on annettu?
 
@@ -59,8 +55,7 @@ Tietokannan rakenne
 Oppaat
 ------
 
-.. admonition:: Itsenäinen tiedon haku
-  :class: meta
+.. hint:: Itsenäinen tiedon haku
 
   SQL on paljon laajempi kyselykieli kuin mitä tällä kurssilla on mahdollista syvällisemmin käydä läpi.
   Harjoitukissa on kuitenkin tarkoitus saada yleiskuva kielen laajuudesta ja opetella ongelmanratkaisua.
@@ -73,8 +68,7 @@ Oppaat
 Yleistä
 -------
 
-.. admonition:: Tietokantaa ei löydy/sieltä ei löydy jotain taulua?
-  :class: danger
+.. danger:: This is a note admonition.
 
   Jos seuraavissa tehtävissä konsoliin tulostuu virheilmoitus,
 
@@ -93,8 +87,7 @@ Yleistä
 
   .. figure:: kuvat/tyhjä_tietokanta.png
 
-.. admonition:: SQL-komennon palauttamat tietueet talteen
-  :class: meta
+.. note:: SQL-komennon palauttamat tietueet talteen
 
   Suoritettuasi esimerkiksi komennon
 
@@ -130,9 +123,7 @@ valita väkimäärän perusteella on lisätä hakukomentoon
 ``ORDER BY populaatio DESC`` eli järjestä laskevasti väkimäärän
 mukaan. Tällöin suurin kaupunki on listassa ensimmäinen.
 
-
-.. admonition:: Merkistöistä
-  :class: meta
+.. note:: Merkistöistä
 
   Ennen seuraavan tehtävän aloittamista kannattaa tutkia tehtäväpaketin mukana tulleita tiedostoja.
   Mitä `merkistöä <https://fi.wikipedia.org/wiki/Merkist%C3%B6>`_ esimerkiksi `tekstitiedosto <https://fi.wikipedia.org/wiki/Tekstitiedosto>`_ kaupungit.txt käyttää?
@@ -171,11 +162,15 @@ jolloin python-tulkki valittaa `syntax-errorista <https://docs.python.org/3.6/li
 
 Kulma isoympyrällä:
 
-:math:`\alpha = \arccos(\sin(lat1) * \sin(lat2) + \cos(lat1) * cos(lat2) * cos(lon2-lon1))`
+.. math::
+
+  \alpha = \arccos(\sin(lat1) * \sin(lat2) + \cos(lat1) * cos(lat2) * cos(lon2-lon1))
 
 Etäisyys isoympyrällä:
 
-:math:`b = \alpha * R`
+.. math::
+
+  b = \alpha * R
 
 
 
