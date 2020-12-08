@@ -16,9 +16,13 @@ Suuntaa antava vaativuusarvio:
 Suuntaa antava työläysarvio:
     2-3 tuntia.
 
-  Ohjelmointitehtävät:
-      Voit asentaa `SQL Liten <http://sqlitebrowser.org/>`__ sen omilta sivuilta (tai `täältä <https://sourceforge.net/projects/sqlitedbrowser/>`__).
+Ohjelmointitehtävät:
+    Voit asentaa `SQL Liten <http://sqlitebrowser.org/>`__ sen omilta sivuilta (tai `täältä <https://sourceforge.net/projects/sqlitedbrowser/>`__).
 
+.. admonition:: And, by the way...
+
+   You can make up your own admonition too.
+   
 .. hint:: Demografia
 
   Kaikissa tehtävissä käytetään alla olevaa tietokantaa, johon on ladattu suuri määrä maailman kaupunkeja ja niiden asukasmääriä ja koordinaatteja. Tietokannassa on vain yksi taulu, jonka tietueet kuvaavat maailman kaupunkeja.
