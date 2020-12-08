@@ -89,7 +89,7 @@ Yleistä
   Tietokanta luodaan automaattisesti, jos sitä ei löydy. Tietokanta on tällöin tyhjä, joten vaikka näyttäisi siltä, että
   tietokanta on oikeassa paikassa, se ei toimi.
 
-  .. figure:: kuvat/tyhjä_tietokanta.png
+  .. figure:: kuvat/tyhja_tietokanta.png
 
 .. note:: SQL-komennon palauttamat tietueet talteen
 
