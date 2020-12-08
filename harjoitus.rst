@@ -84,6 +84,24 @@ Nyt voitaisiin suorttaa esimerkiksi seuraavanlainen SQL-komento c.execute()-meto
   command = 'SELECT COUNT(*) FROM kaupungit'
   c.execute(command)
 
+Suoritettuasi esimerkiksi komennon
+
+.. code-block:: python
+
+  c.execute("""SELECT * FROM kaupungit;""")
+
+Saat komennon palauttaman ensimmäisen tietueen talteen komennolla
+
+.. code-block:: python
+
+  tietue = c.fetchone()
+
+Saat kaikki komennon palauttamat tietueet talteen komennolla
+
+.. code-block:: python
+
+  tietueet = c.fetchall()  #palauttaa kaikki c.excecute()-komennon palauttamat tietueet listana
+
 Komentoja on helppo formatoida, jolloin osa komennon parametreista voidaan määritellä muuttujissa. 
 Kysymysmerkit korvataan annetulla listalla muuttujia samassa järjestyksessä. 
 
@@ -134,27 +152,6 @@ Huom! Tietokanta luodaan automaattisesti, jos sitä ei löydy. Tietokanta on tä
 joten vaikka näyttäisi siltä, että tietokanta on oikeassa paikassa, se ei toimi.
 
   .. figure:: kuvat/tyhja_tietokanta.png
-
-SQL-komennon palauttamat tietueet talteen
-.........................................
-
-Suoritettuasi esimerkiksi komennon
-
-.. code-block:: python
-
-  c.execute("""SELECT * FROM kaupungit;""")
-
-Saat komennon palauttaman ensimmäisen tietueen talteen komennolla
-
-.. code-block:: python
-
-  tietue = c.fetchone()
-
-Saat kaikki komennon palauttamat tietueet talteen komennolla
-
-.. code-block:: python
-
-  tietueet = c.fetchall()  #palauttaa kaikki c.excecute()-komennon palauttamat tietueet listana
 
 
 
