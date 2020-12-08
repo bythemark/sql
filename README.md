@@ -12,6 +12,7 @@ Tarvitset harjoituksissa komentoriviä. Kokeile ajaa hello.py komentoriviltä en
 Muutama kätevä komento:
 
 - ls - listaa hakemistossa olevat tiedostot
+- more <tiedosto> - tulostaa tiedoston sisällön ruudulle
 - pwd - kertoo missä hakemistossa olet
 - cd <hakemisto> - vaihtaa alihakemistoon <hakemisto>
 - cd .. - palaa yhden hakemistotason ylemmäksi
