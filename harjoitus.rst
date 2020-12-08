@@ -176,9 +176,6 @@ mukaan. Tällöin suurin kaupunki on listassa ensimmäinen.
 Tehtävä 2: Tietojen päivittäminen
 ---------------------------------
 
-Merkistöistä
-............
-
 Ennen seuraavan tehtävän aloittamista kannattaa tutkia tehtäväpaketin mukana tulleita tiedostoja.
 Mitä `merkistöä <https://fi.wikipedia.org/wiki/Merkist%C3%B6>`_ esimerkiksi `tekstitiedosto <https://fi.wikipedia.org/wiki/Tekstitiedosto>`_ kaupungit.txt käyttää?
 Ongelmien välttämiseksi tiedoston avaamisen yhteyteen on syytä lisätä tieto käytetystä merkistöstä.
@@ -191,6 +188,9 @@ Python 3:ssa se onnistuu lisäämällä määre **encoding** esimerkiksi seuraav
 Tehtäväpaketin mukana tulee tiedosto *suomen_suurimpien_kuntien_asukasluvut.txt*, jossa on listattuna Suomen suurimpien kuntien asukaslukuja.
 Tehtävänäsi on tiedostoa hyödyntämällä päivittää kaupunkien asukasluvut. Jos tiedostossa olevaa kaupunkia ei löydy tietokannasta, ohita kyseinen kaupunki.
 Älä kuitenkaan luo uutta kaupunkia tietokantaan. 
+
+
+
 
 Tehtävä 3: Kahden kaupungin etäisyys
 ------------------------------------
