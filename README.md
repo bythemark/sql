@@ -6,6 +6,7 @@ Tarvitset harjoituksissa komentoriviä. Kokeile ajaa hello.py komentoriviltä en
 - New -> Terminal
 
   '$ python hello.py'
+  
   'Hello World'
 
 Muutama kätevä komento:
