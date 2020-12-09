@@ -24,7 +24,7 @@ Voit ajaa ensimmäisen tehtävän testit komennoilla 'python test_kaupunkihaku.p
 
 Testit eivät mene läpi, koska tehtävää ei ole vielä tehty. 
 Kun olet saanut tehtyä tehtävän, testaa em. komennolla, että ratkaisusi toimii. 
-Ohjeet harjoitusten tekemiseen löydät tiedostosta 'harjoitus.rst'
+Ohjeet harjoitusten tekemiseen löydät Jupyter Notebookista nimeltä 'SQLite-Python.ipynb'
 
 
 
