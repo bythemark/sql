@@ -5,9 +5,8 @@ Tarvitset harjoituksissa komentoriviä. Kokeile ajaa hello.py komentoriviltä en
 
 - New -> Terminal
 
-  'jovyan@jupyter-bythemark-2dsql-2di7ifhjdt:~$ python hello.py'
+  '$ python hello.py'
   'Hello World'
-  'jovyan@jupyter-bythemark-2dsql-2di7ifhjdt:~$'
 
 Muutama kätevä komento:
 
