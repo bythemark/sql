@@ -16,7 +16,7 @@ Muutama kätevä komento:
 - pwd - kertoo missä hakemistossa olet
 - cd <hakemisto> - vaihtaa alihakemistoon <hakemisto>
 - cd .. - palaa yhden hakemistotason ylemmäksi
-- <ctrl>-L - tyhjentää ruudun
+- ctrl-L - tyhjentää ruudun
 
 Siirry vaikkapa ensimmäisen tehtävän hakemistoon: 'cd teht1'
 
