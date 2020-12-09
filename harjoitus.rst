@@ -94,13 +94,13 @@ Saat komennon palauttaman ensimmäisen tietueen talteen komennolla
 
 .. code-block:: python
 
-  tietue = c.fetchone()
+  item = c.fetchone()
 
 Saat kaikki komennon palauttamat tietueet talteen komennolla
 
 .. code-block:: python
 
-  tietueet = c.fetchall()  #palauttaa kaikki c.excecute()-komennon palauttamat tietueet listana
+  list = c.fetchall()  #palauttaa kaikki c.excecute()-komennon palauttamat tietueet listana
 
 Komentoja on helppo formatoida, jolloin osa komennon parametreista voidaan määritellä muuttujissa. 
 Kysymysmerkit korvataan annetulla listalla muuttujia samassa järjestyksessä. 
