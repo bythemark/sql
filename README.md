@@ -18,7 +18,7 @@ Muutama kätevä komento:
 - cd .. - palaa yhden hakemistotason ylemmäksi
 - ctrl-L - tyhjentää ruudun
 
-Siirry vaikkapa ensimmäisen tehtävän hakemistoon: 'cd T1.7'
+Siirry vaikkapa ensimmäisen tehtävän hakemistoon: 'cd teht1'
 
 Voit ajaa ensimmäisen tehtävän testit komennoilla 'python test_kaupunkihaku.py'
 
